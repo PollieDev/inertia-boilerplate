@@ -7,4 +7,4 @@ There is no styling built into the boilerplate at all (so no css framework).
 I have some projects that need to happen with Bootstrap and others with Tailwind whereby I want this to be clean and without any.  
   
 I might update this by times to add functionalities I pretty much all the time to make new project creation faster.  
-Feel free to create a pull request asswel for common functionalities that are missing.
+Feel free to create a pull request as well for common functionalities that are missing.
