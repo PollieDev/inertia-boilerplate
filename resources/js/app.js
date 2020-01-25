@@ -8,7 +8,7 @@ import PortalVue from 'portal-vue'
 import {InertiaApp} from '@inertiajs/inertia-vue'
 
 Vue.config.productionTip = false;
-Vue.mixin({methods: {route: window.route}});
+Vue.prototype.$route = (...args) => route(...args).url();
 Vue.use(InertiaApp);
 Vue.use(PortalVue);
 Vue.use(VueMeta);
